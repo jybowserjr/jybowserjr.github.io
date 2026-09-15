@@ -2,7 +2,9 @@ This is a personal portfolio website based off of DevManSam's template. Feel fre
 
 I shuffled a lot of stuff though, so certain naming conventions in my version may not make sense.
 
-[Click here to view the website](jybowserjr.github.io)
+[Click here to view the website](https://jybowserjr.github.io)
+
+![Rat gif](https://media1.tenor.com/m/RLpt5hM3GzsAAAAd/culihasa-dopa-jinja.gif)
 
 ## Credits
 
