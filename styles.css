@@ -3,16 +3,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: url(./assets/cursor.svg), auto;
 }
 
 :root {
   /* Light theme colors */
-  --primary-color: #2563eb;
-  --secondary-color: #1e40af;
-  --accent-color: #f59e0b;
-  --text-dark: #1f2937;
-  --text-light: #6b7280;
-  --bg-light: #e1ebff;
+  --primary-color: #cc53f8;
+  --secondary-color: #3b03e4; /*button hover*/
+  --accent-color: #ffdd00; 
+  --text-dark: #1f2937; /*project text*/
+  --text-light: #003fbc; /*standard text*/
+  --bg-light: #eff2d4;
   --bg-white: #fafafa;
   --border-color: #e5e7eb;
   --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
@@ -23,12 +24,12 @@
 
 [data-theme="dark"] {
   /* Dark theme colors */
-  --primary-color: #3b82f6;
-  --secondary-color: #2563eb;
-  --accent-color: #fbbf24;
-  --text-dark: #f9fafb;
-  --text-light: #d1d5db;
-  --bg-light: #111827;
+  --primary-color: #ffc906;
+  --secondary-color: #eb3f25; 
+  --accent-color: #c960fa;
+  --text-dark: #fffafe;
+  --text-light: #d9d1db;
+  --bg-light: #2b003b;
   --bg-white: #1f2937;
   --border-color: #374151;
   --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
@@ -133,7 +134,7 @@ html {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  cursor: pointer;
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -153,7 +154,7 @@ html {
   border: none;
   font-size: 1.5rem;
   color: #3b82f6;
-  cursor: pointer;
+  
   z-index: 1001;
 }
 
@@ -221,7 +222,7 @@ html {
   border-radius: 8px;
   font-size: 1rem;
   font-weight: 600;
-  cursor: pointer;
+  
   transition: all 0.3s ease;
   text-decoration: none;
   display: inline-flex;
@@ -550,7 +551,7 @@ section {
   overflow: hidden;
   box-shadow: var(--shadow);
   transition: all 0.3s ease;
-  cursor: pointer;
+  
   text-decoration: none;
   color: inherit;
 }
@@ -688,11 +689,7 @@ section {
   margin: 0 auto;
 }
 
-.contact-form-container web-inquiry-form,
-.contact-form-container contact-form {
-  width: 100%;
-  margin: 0;
-}
+
 
 .footer {
   background: var(--footer-bg);
@@ -930,4 +927,8 @@ section {
   .blog-grid {
     grid-template-columns: 1fr;
   }
+}
+
+.spacer-top {
+  margin-top: 50px;
 }
