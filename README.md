@@ -4,7 +4,7 @@ I shuffled a lot of stuff though, so certain naming conventions in my version ma
 
 [Click here to view the website](https://jybowserjr.github.io)
 
-![Rat gif](https://media1.tenor.com/m/RLpt5hM3GzsAAAAd/culihasa-dopa-jinja.gif)
+<img src="https://media1.tenor.com/m/RLpt5hM3GzsAAAAd/culihasa-dopa-jinja.gif" alt="Rat gif" width="300">
 
 ## Credits
 
